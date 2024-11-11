@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  font-family: "inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  margin-top: 174px;
+  margin-left: 528px;
+  margin-right: 528px;
+  margin-bottom: 75px;
+}
+
+.jessica {
+  width: 384px;
+  height: 611px;
+  margin-left: 528px;
+  padding: 40px;
+  gap: 24px;
+  border-radius: 12px;
+  background-color: #1f1f1f;
+  text-align: center;
+}
+
+.jessica-img {
+  width: 88px;
+  height: 88px;
+}
+.jessica-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.jessica-london {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #c4f82a;
+}
+.jessica-front {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.jessica-list,
+a {
+  text-decoration: none;
+  list-style: none;
+  gap: 16px;
+
+  color: #ffffff;
+}
+.jessica-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #333333;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 16px;
+  gap: 8px;
+  transition: 0.3s ease-in-out;
+  &:active {
+    background-color: #c4f82a;
+  }
+}
